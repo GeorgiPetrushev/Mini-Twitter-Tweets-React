@@ -3,7 +3,7 @@ import Tweet from "./Tweet";
 
 const TweetList = ({name,tweets,setTweets}) =>{
     return(
-        <div className = "Tweet-list">
+        <div>
             {tweets.map( tweet => 
                 <Tweet 
                     name={name} 
